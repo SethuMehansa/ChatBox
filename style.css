@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Matemasie&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Matemasie&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+h1{
+    font-family:"Matemasie", sans-serif;
+    text-align: center;
+    background-color:#53bfc5 ;
+    border-radius: 60px;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#chatbox{
+overflow-y: scroll;
+    padding: 5px;
+    margin: 15px;
+    height: 600px;
+    background-color: #477b7f;
+    border-radius: 20px;
+
+}
+#textinput{
+    border-radius: 30px;
+    min-width: 60%;
+    min-height: 60px;
+    border-style: groove;
+}
+#btnsend{
+    border-style: hidden;
+    color:white;
+    background-color: #1e6e75;
+    margin: 10px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.selectUser{
+    padding: 20px;
+    font-family:  "Fuzzy Bubbles", serif;
+    border-radius: 20px;
+    margin-left: 30px;
+    border-style: none;
+    color: white;
+    background-color: #09515a;
+}
+.selectUserlist{
+    display: none;
+    padding: 10px;
+    font-family:  "Fuzzy Bubbles", serif;
+    border-radius: 20px;
+    margin-left: 30px;
+    position: absolute;
+    border-style: none;
+    color: white;
+    background-color: #0795a4;
+}
+.selectUserlist a{
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.selectUserlist a:hover{
+    color:#094d53;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.show{
+    display: block;
+}
+.sender1{
+    margin:10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #7ac8cf;
+}
+.sender2{
+    align-items: end;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #0eb8c4;
+}
+.time{
+margin-right: 15px;
+margin-left: 15px;
+font-size: medium;
+font-weight: 600;
+}
